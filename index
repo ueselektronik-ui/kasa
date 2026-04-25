@@ -211,7 +211,7 @@
     const blob = new Blob([JSON.stringify(data)], {type: "application/json"});
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
-    a.href = url; a.download = "cuzdan_yedek.json"; a.click();
+    a.href = url; a.download = "kasa_yedek.json"; a.click();
   }
 
   function importJSON(e) {
